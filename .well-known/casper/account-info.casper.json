@@ -18,11 +18,11 @@
             {"public_key": "02023a525cbb5ad020e2fd04224d01ef34fc656c6c1423db27257c0d13f5606bf0c6"}
         ],
         "website": "www.finnstake.com",
-        "email": "finnstakenodes@gmail.com",
+        "email": "support@finnstake.com",
         "branding": {
           "logo": {
-        "png_256": "https://yourusername.github.io/finnstake-site/assets/images/finnstake-logo-256.png",
-        "png_1024": "https://yourusername.github.io/finnstake-site/assets/images/finnstake-logo-1024.png",
+        "png_256": "https://cryptopless.github.io/finnstake-site/assets/images/finnball_256.png",
+        "png_1024": "https://cryptopless.github.io/finnstake-site/assets/images/finnball_1024.png",
         "svg": ""
           }
         },

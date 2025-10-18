@@ -1,2 +1,0 @@
-# finnstake-site
-FinnStake website

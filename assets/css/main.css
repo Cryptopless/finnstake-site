@@ -4155,3 +4155,24 @@ input, select, textarea {
 		}
 
 	}
+/* Make all images responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Reduce padding/margins on mobile */
+@media screen and (max-width: 768px) {
+    .wrapper {
+        padding: 1em;
+    }
+    header h1, header h2 {
+        font-size: 1.5em;
+    }
+    .spotlight .image {
+        margin-bottom: 1em;
+    }
+    .spotlight .content {
+        padding: 0;
+    }
+}

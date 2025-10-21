@@ -4173,3 +4173,90 @@ img {
         padding: 0;
     }
 }
+/* --- FinnStake custom responsive & background fixes --- */
+
+/* Hero / Dock section */
+.hero,
+#header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/dock-1365387_1280.jpg"), url("../images/pattern-size3.svg");
+  background-position: top left, center center;
+  background-attachment: fixed, fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: #fff;
+  text-align: center;
+}
+
+/* Ensure header text remains readable on the dock */
+#header h1,
+#header h2 {
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+/* Make all images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Section padding for consistent spacing */
+.wrapper {
+  padding: 4em 2em;
+}
+
+/* Adjust for tablets and phones */
+@media screen and (max-width: 1024px) {
+  #header {
+    min-height: 80vh;
+    padding: 2em 1em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #header h1 {
+    font-size: 1.8em;
+  }
+
+  #header h2 {
+    font-size: 1.1em;
+  }
+
+  .wrapper {
+    padding: 2em 1em;
+  }
+
+  .spotlight {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .spotlight .image {
+    margin-bottom: 1.2em;
+  }
+
+  /* Mobile fix for background attachment (fixed is buggy on mobile) */
+  .hero,
+  #header {
+    background-attachment: scroll, scroll;
+    background-position: center center;
+  }
+}
+
+/* Make sure icons and buttons don't overflow */
+.icons li,
+.actions li {
+  display: inline-block;
+  margin: 0.3em;
+}
+
+button,
+.button {
+  border-radius: 8px;
+  padding: 0.6em 1.2em;
+}

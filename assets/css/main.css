@@ -4260,3 +4260,9 @@ button,
   border-radius: 8px;
   padding: 0.6em 1.2em;
 }
+body {
+  background: url("../images/dock-1365387_1280.jpg") center center / cover no-repeat fixed !important;
+}
+#wrapper:before {
+  background: none !important;
+}

@@ -4270,11 +4270,8 @@ html, body {
     height: 100%;
 }
 
-body {
-    background: url('https://www.finnstake.com/images/dock-1365387_1280.jpg') no-repeat center center;
-    background-size: cover;
-}
-body {
+
+header {
     background: url('https://www.finnstake.com/images/dock-1365387_1280.jpg') no-repeat center center !important;
     background-size: cover !important;
     background-attachment: fixed !important;

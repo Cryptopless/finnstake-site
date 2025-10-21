@@ -3623,7 +3623,7 @@ input, select, textarea {
 		display: -ms-flex;
 		display: flex;
     justify-content: center;
-    background-image: url("../images/dock-1365387_1280.jpg"), url("../images/pattern-size3.svg");
+    background-image: url("../images/dock-1365387_1280.jpg"), url("../images/pattern-size1.svg");
     background-position: top left, center center;
     background-attachment: fixed, fixed;
     background-size: cover;

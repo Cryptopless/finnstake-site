@@ -4301,7 +4301,9 @@ footer p {
   color: #ffffff !important;
   border: 2px solid #ffffff33;
   border-radius: 28px;
-  padding: 0.45em 1.1em;
+  height: 2.4em;                /* kiinteä korkeus */
+  line-height: 2.4em;           /* varmistaa pystykeskityksen */
+  padding: 0 1.2em;             /* vaakasuuntainen sisennys */
   font-size: 0.9em;
   font-weight: 600;
   letter-spacing: 0.3px;

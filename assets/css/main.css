@@ -2762,7 +2762,7 @@ input, select, textarea {
 
 			.spotlight .image img {
 				display: block;
-				border-radius: 5%;
+				border-radius: 0%;
 				width: 100%;
 			}
 

@@ -1,60 +1,53 @@
 {
-    "owner": {
-        "name": "FinnStake",
-        "description": "Validator running in Finland",
-        "type": [],
-        "identity": {
-            "ownership_disclosure_url": "",
-            "casper_association_kyc_url": "",
-            "casper_association_kyc_onchain": ""
-        },
-        "resources": {
-            "code_of_conduct_url": "",
-            "terms_of_service_url": "",
-            "privacy_policy_url": "",
-            "other": []
-        },
-        "affiliated_accounts": [
-            {"public_key": "02023a525cbb5ad020e2fd04224d01ef34fc656c6c1423db27257c0d13f5606bf0c6"}
-        ],
-        "website": "www.finnstake.com",
-        "email": "support@finnstake.com",
-        "branding": {
-          "logo": {
-        "png_256": "https://cryptopless.github.io/finnstake-site/images/Finnstake logo_256.png",
-        "png_1024": "https://cryptopless.github.io/finnstake-site/images/Finnstake logo_1024.png",
-        "svg": ""
-          }
-        },
-        "location": {
-            "name": "Turku",
-            "country": "FI",
-            "latitude": 0,
-            "longitude": 0
-        },
-        "social": {
-            "keybase": "",
-            "telegram": "",
-            "twitter": "",
-            "github": "",
-            "youtube": "",
-            "facebook": "",
-            "medium": "",
-            "reddit": "",
-            "wechat": ""
-        }
+  "owner": {
+    "name": "FinnStake",
+    "description": "Personal validator node running in Finland (Turku region)",
+    "type": ["validator", "personal"],
+    "identity": {
+      "ownership_disclosure_url": "",
+      "casper_association_kyc_url": "",
+      "casper_association_kyc_onchain": ""
     },
-    "nodes": [
-        {
-            "public_key": "010a72fd7aa663b3024ceaa7c324c4a45d78747d8064d6c036fce397b0c274d317",
-            "description": "Validator running in Turku Finland on a high performance machine",
-            "location": {
-                "name": "Turku",
-                "country": "FI",
-                "latitude": 0,
-                "longitude": 0
-            },
-            "functionality": []
-        }
-    ]
+    "resources": {
+      "code_of_conduct_url": "https://github.com/cryptopless/finnstake-site/blob/main/CODE_OF_CONDUCT.md",
+      "terms_of_service_url": "",
+      "privacy_policy_url": "",
+      "other": []
+    },
+    "affiliated_accounts": [
+      { "public_key": "02023a525cbb5ad020e2fd04224d01ef34fc656c6c1423db27257c0d13f5606bf0c6" }
+    ],
+    "website": "https://finnstake.com",
+    "email": "support@finnstake.com",
+    "branding": {
+      "logo": {
+        "png_256": "https://cryptopless.github.io/finnstake-site/images/Finnstake%20logo_256.png",
+        "png_1024": "https://cryptopless.github.io/finnstake-site/images/Finnstake%20logo_1024.png",
+        "svg": ""
+      }
+    },
+    "location": {
+      "name": "Turku, Varsinais-Suomi",
+      "country": "FI",
+      "latitude": 60.4518,
+      "longitude": 22.2666
+    },
+    "social": {
+      "twitter": "",
+      "github": "https://github.com/cryptopless"
+    }
+  },
+  "nodes": [
+    {
+      "public_key": "010a72fd7aa663b3024ceaa7c324c4a45d78747d8064d6c036fce397b0c274d317",
+      "description": "Personal validator node running in Turku, Finland on a high-performance machine",
+      "location": {
+        "name": "Turku, Varsinais-Suomi",
+        "country": "FI",
+        "latitude": 60.4518,
+        "longitude": 22.2666
+      },
+      "functionality": ["validator"]
+    }
+  ]
 }

@@ -4276,3 +4276,20 @@ html, body {
     background-size: cover !important;
     background-attachment: fixed !important;
 	}
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #f7f7f7; /* voit muuttaa haluamaksesi */
+}
+
+#footer p {
+  margin: 0 0 1rem 0;
+  line-height: 1.5;
+}
+
+.footer-logo img {
+  display: block;
+  margin: 0 auto;
+  width: 100px;   /* voit säätää haluamaasi kokoon */
+  height: auto;
+}

@@ -21,8 +21,8 @@
         "email": "support@finnstake.com",
         "branding": {
           "logo": {
-        "png_256": "https://cryptopless.github.io/finnstake-site/assets/images/finnball_256.png",
-        "png_1024": "https://cryptopless.github.io/finnstake-site/assets/images/finnball_1024.png",
+        "png_256": "https://cryptopless.github.io/finnstake-site/images/Finnstake logo_256.png",
+        "png_1024": "https://cryptopless.github.io/finnstake-site/images/Finnstake logo_1024.png",
         "svg": ""
           }
         },
@@ -46,8 +46,8 @@
     },
     "nodes": [
         {
-            "public_key": "0103c4bad99d1b0965a2316ff9f30935a33f9b33be246bd9ffacee14f9d27aa335",
-            "description": "Validator running in Finland",
+            "public_key": "010a72fd7aa663b3024ceaa7c324c4a45d78747d8064d6c036fce397b0c274d317",
+            "description": "Validator running in Turku Finland on a high performance machine",
             "location": {
                 "name": "Turku",
                 "country": "FI",

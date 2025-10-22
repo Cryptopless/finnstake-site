@@ -4293,3 +4293,21 @@ footer p {
   width: 100px;   /* voit säätää haluamaasi kokoon */
   height: auto;
 }
+.validator-btn {
+  background: linear-gradient(90deg, #cc0000, #ff5555);
+  color: white !important;
+  border: none;
+  border-radius: 30px;
+  padding: 0.4em 1em;
+  font-size: 0.85em;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  text-transform: none;
+  transition: all 0.3s ease;
+}
+
+.validator-btn:hover {
+  background: linear-gradient(90deg, #ff6666, #cc0000);
+  transform: translateY(-1px);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}

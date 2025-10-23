@@ -4,25 +4,25 @@
     "description": "Personal validator node running in Finland with secure connection",
     "type": ["validator"],
     "identity": {
-      "ownership_disclosure_url": "",
+      "ownership_disclosure_url": "https://finnstake.com",
       "casper_association_kyc_url": "",
       "casper_association_kyc_onchain": ""
     },
     "resources": {
-      "code_of_conduct_url": "https://github.com/finnstake/finnstake-site/blob/main/CODE_OF_CONDUCT.md",
+      "code_of_conduct_url": "",
       "terms_of_service_url": "",
       "privacy_policy_url": "",
       "other": []
     },
     "affiliated_accounts": [
-      { "public_key": "010a72fd7aa663b3024ceaa7c324c4a45d78747d8064d6c036fce397b0c274d317" }
+      { "public_key": "tähän toinen tili" }
     ],
     "website": "https://finnstake.com",
     "email": "support@finnstake.com",
     "branding": {
       "logo": {
-        "png_256": "https://finnstake.github.io/finnstake-site/images/Finnstake%20logo_256.png",
-        "png_1024": "https://finnstake.github.io/finnstake-site/images/Finnstake%20logo_1024.png",
+        "png_256": "https://finnstake.github.io/finnstake-site/images/Finnstake logo_256.png",
+        "png_1024": "https://finnstake.github.io/finnstake-site/images/Finnstake logo_1024.png",
         "svg": ""
       }
     },

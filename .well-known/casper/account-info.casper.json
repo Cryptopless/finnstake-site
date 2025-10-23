@@ -1,8 +1,8 @@
 {
   "owner": {
     "name": "FinnStake",
-    "description": "Personal validator node running in Finland with secure connection",
-    "type": ["validator"],
+    "description": "Personal validator node running in Finland with secure connection. Suomalainen, tehty sisulla.",
+    "type": "validator",
     "identity": {
       "ownership_disclosure_url": "https://finnstake.com",
       "casper_association_kyc_url": "",
@@ -15,7 +15,7 @@
       "other": []
     },
     "affiliated_accounts": [
-      { "public_key": "tähän toinen tili" }
+      { "public_key": "02023a525cbb5ad020e2fd04224d01ef34fc656c6c1423db27257c0d13f5606bf0c6" }
     ],
     "website": "https://finnstake.com",
     "email": "support@finnstake.com",

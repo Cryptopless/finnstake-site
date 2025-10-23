@@ -21,8 +21,8 @@
     "email": "support@finnstake.com",
     "branding": {
       "logo": {
-        "png_256": "https://finnstake.github.io/finnstake-site/images/Finnstake logo_256.png",
-        "png_1024": "https://finnstake.github.io/finnstake-site/images/Finnstake logo_1024.png",
+        "png_256": "https://finnstake.github.io/finnstake-site/images/finnstake_logo_256.png",
+        "png_1024": "https://finnstake.github.io/finnstake-site/images/finnstake_logo_1024.png",
         "svg": ""
       }
     },
